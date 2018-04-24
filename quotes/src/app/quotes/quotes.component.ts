@@ -13,7 +13,7 @@ export class QuotesComponent implements OnInit {
     new Quotes("Dj Grooviq","Some people feel the rain others just get wet","~ Bob Marley",new Date(2018,3,23)),
 
   ]
-  // 
+
   // addNewQuote(quote){
   //   this.quotes.push(quote)
   // }
@@ -23,10 +23,10 @@ export class QuotesComponent implements OnInit {
   //     this.quotes.splice(index,1)
   //   }
   // }
-  //
-  // onClick(index){
-  //   this.quotes[index].showDetails = !this.quotes[index].showDetails;
-  // }
+
+  onClick(index){
+    this.quotes[index].showDetails = !this.quotes[index].showDetails;
+  }
 
   constructor() { }
 
