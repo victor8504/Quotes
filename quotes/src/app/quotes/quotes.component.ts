@@ -17,12 +17,12 @@ export class QuotesComponent implements OnInit {
   // addNewQuote(quote){
   //   this.quotes.push(quote)
   // }
-  //
-  // quoteDelete(index){
-  //   if(index){
-  //     this.quotes.splice(index,1)
-  //   }
-  // }
+
+  quoteDelete(index){
+    if(index){
+      this.quotes.splice(index,1)
+    }
+  }
 
   onClick(index){
     this.quotes[index].showDetails = !this.quotes[index].showDetails;
