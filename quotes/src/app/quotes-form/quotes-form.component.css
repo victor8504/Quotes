@@ -1,0 +1,14 @@
+input {
+  border-radius: 5px;
+  width: auto;
+  border: 0;
+  height: 30px;
+}
+
+button{
+  border-radius: 20px;
+}
+
+button:hover{
+  background-color: #17618E;
+}
