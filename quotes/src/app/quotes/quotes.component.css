@@ -5,3 +5,33 @@
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
 }
+
+.quotes {
+  background-color: #B3B6B7;
+  border-radius: 20px;
+  padding: 10%;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: auto;
+}
+
+.quotes:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.cancel:hover {
+  cursor: pointer;
+}
+
+.entry {
+  background-color: #B3B6B7;
+  border-radius: 20px;
+  padding: 10%;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: auto;
+}
+
+.entry:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
