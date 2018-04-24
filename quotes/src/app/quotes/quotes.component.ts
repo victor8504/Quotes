@@ -14,9 +14,9 @@ export class QuotesComponent implements OnInit {
 
   ]
 
-  // addNewQuote(quote){
-  //   this.quotes.push(quote)
-  // }
+  addNewQuote(quote){
+    this.quotes.push(quote)
+  }
 
   quoteDelete(index){
     if(index){
