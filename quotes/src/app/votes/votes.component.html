@@ -1,3 +1,5 @@
-<p>
-  votes works!
-</p>
+<button type="upVote" class="btn btn-success btn-sl" (click)="onUpvote()" > Upvote <i class="fas fa-arrow-up"></i></button>
+<p>This quote has {{ up }} upVotes</p>
+
+<button type="downVote" class="btn btn-danger btn-sl" (click)="onDownvote()" > Downvote <i class="fas fa-arrow-down"></i></button>
+<p>This quote has {{ down }} downVotes</p>
